@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sorting.css">
+    <title>Sorting Visualizer</title>
+  </head>
+  <body class="bg-dark">
+    <header>
+        <h1 style="text-align: center; color:aqua">Sorting Visualizer</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark new-array border border-light">New Array</button></a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark bubble-sort border border-light">Bubble Sort</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark  quick-sort border border-light">Quick Sort</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark merge-sort border border-light">Merge Sort</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark selection-sort border border-light">Selection Sort</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-dark insertion-sort border border-light">Insertion Sort</button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </nav>
+    </header>
+    <div>
+      
+      <span class="arr-sz">
+        <h3>20</h3>
+        <input id="arr_sz" type="range"  min=20 max=120 step=1 value=60>
+        <h3>120</h3> 
+      </span>
+
+        <h2 id="value-h">
+          Value : 60 
+        </h2>
+
+    </div>
+      
+    <div id="bars">
+    </div>
+    <div id="algo">
+        <h1 id="algo-name"></h1>
+    </div>
+    
+  </body>
+</html>
