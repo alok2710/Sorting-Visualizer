@@ -1,0 +1,29 @@
+#bars{
+    height : 70vh ;
+    width : 80vw ;
+    margin : 0px auto ;
+}
+
+.bar{
+    display: inline-block;
+    box-sizing: border-box;
+    margin : 0.2% ;
+    background-color: rgba(231, 183, 78, 0.856);
+}
+
+#algo-name{
+    text-align: center;
+    color: blueviolet;
+}
+
+.arr-sz{
+    margin: 0 10px ;
+}
+h3{
+    display: inline-block;
+    color: red ;
+}
+
+#value-h{
+    margin: 0 10px ;
+}
